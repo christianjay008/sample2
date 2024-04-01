@@ -1,0 +1,270 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(im.gif);
+}
+
+
+header {
+    background-color:none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 3.8em;
+    margin: 0;
+    text-align: center;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    color:rgb(245, 236, 245)
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:violet;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    color: rgb(252, 245, 252);
+}
+
+h2 {
+    font-size: 2.8em;
+    color: rgb(248, 240, 248);
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: #f9f5fa;
+    padding: 20px;
+    text-align: center;
+}
+form{
+width: 300px;
+margin:0 auto;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 10px;
+ 
+
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+form button {
+    padding: 10px 20px;
+    background-color: #087c17;
+    color: #f7f1f5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+   
+}
+
+form button:hover {
+    background-color: #444444;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    background-color:none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+/* CSS code to set the size of project images */
+.project img {
+    width: 250px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    /* Alternatively, you can set a specific height if needed */
+}
+
+
+/* styles.css */
+
+/* Animation for the profile photo */
+#home img {
+    display: block;
+    margin: 1 auto 20px;
+    width: 250px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 20%; /* Makes the image round */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(2);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Animation for the welcome message */
+#home h2, #home p {
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* styles.css */
+
+#home {
+    display: flex;
+    flex-direction: row; /* Set the direction to row */
+    justify-content: flex-start; /* Align items to the start of the flex container */
+    align-items: center; /* Center items vertically */
+}
+
+#home h2, #home p {
+    margin-left: 20px; /* Add margin to create space between elements */
+}
+
+/* Add these styles to your existing styles.css file */
+
+#social-media {
+    background-color:none;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+#home h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 3.8em;
+    color: rgb(245, 241, 245);
+
+}
+
+#home p{
+    color: rgb(248, 247, 248)
+}
+
+p {
+    font-size: 1.8em;
+}
+
+/* Add these styles to your existing styles.css file */
+
+#skills {
+    background-color:none;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #07bb07;
+    text-align: right;
+    line-height: 20px;
+    color: #fff;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+    
+   
+   
+
+
+
